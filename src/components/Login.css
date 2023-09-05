@@ -1,22 +1,20 @@
-/* Styles for the login container */
 .login-wrapper {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Make the wrapper fill the entire viewport height */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
   }
 
 .login-container {
-    border: 2px solid #000; /* Black border with 2px width */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
-    height: 65vh; /* Adjust as needed */
+    height: 65vh; 
     width: 110vh;
   }
   
-  /* Styles for the left section (image) */
   .login-left {
     flex: 1;
-    background: #f0f0f0; /* Background color for the left section */
+    background: #f0f0f0; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +25,6 @@
     height: 100%;
   }
   
-  /* Styles for the right section (login form) */
   .login-right {
     flex: 1;
     padding: 20px;
@@ -35,7 +32,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #ffffff; /* Background color for the right section */
+    background: #ffffff; 
   }
   
   h1 {
@@ -48,7 +45,6 @@
     margin-bottom: 20px;
   }
   
-  /* Styles for form inputs and buttons */
   .form-group {
     margin-bottom: 15px;
     width: 100%;
@@ -64,7 +60,7 @@
   }
   
   button {
-    background-color: #007bff; /* Change button color as needed */
+    background-color: #007bff; 
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -75,13 +71,12 @@
   }
   
   button:hover {
-    background-color: #0056b3; /* Change button hover color as needed */
+    background-color: #0056b3; 
   }
   
-  /* Additional styles for the "Don't have an account?" link */
   p a {
     text-decoration: none;
-    color: #007bff; /* Link color */
+    color: #007bff; 
   }
   
   p a:hover {
